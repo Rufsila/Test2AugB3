@@ -1,0 +1,69 @@
+body{
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nv{
+  position: absolute;
+  width: 100%;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  padding: 0px;
+}
+
+.footerContainer{
+  background-color:rgb(68, 68, 72);
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+ column-gap: 30px;
+ padding: 10px;
+ height: 250px;
+}
+
+.fContainer{
+  padding: 10px 15px;
+  color: white;
+}
+
+.fHeading{
+  color: rgb(13, 202, 240);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fPara{
+  text-align: center;
+  font-size: 13px;
+  justify-content: justify;
+  color: white;
+}
+
+.list{
+  list-style: none;
+  color: white;
+}
+
+.brand{
+  margin-right: 20px;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.bottom{
+  background-color:rgb(68, 68, 72);
+  padding-bottom: 20px;
+}
+
+.copy{
+  color:white;
+  text-align: center;
+  font-size: 15px;
+  display: block;
+}
+
+.bgimage{
+  width:100% ;
+  margin: 0px;
+}
